@@ -29,19 +29,19 @@ USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ʜɪ, ɪ ᴀᴍ ᴍᴀᴅ�
 # Paste your bot token here (get it from https://t.me/BotFather)
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
 # Provide the API ID associated with your Telegram application (from https://my.telegram.org/apps)
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "27806628"))
 # Provide the API Hash linked to your Telegram application (available at https://my.telegram.org/apps)
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "25d88301e886b82826a525b7cf52e090")
 # Enter the channel ID of the database channel where all files will be stored.
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003678885941"))
 # Enter your personal Telegram user ID (you can get it by sending '/id' to https://t.me/MissRose_bot).
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "8525952693"))
 #port set to default 8080, change according to your will.
 PORT = os.environ.get("PORT", "8080")
 # Enter your MongoDB connection URL. You can use a free cloud database from MongoDB Atlas.
-DB_URL = os.environ.get("DB_URL", "")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://acoolvoice03_db_user:<qo0KiFsB5J@F6WA>@cluster0.t91uvkm.mongodb.net/")
 # Enter the name of your MongoDB database.
-DB_NAME = os.environ.get("DB_NAME", "")
+DB_NAME = os.environ.get("DB_NAME", "mongodb")
 
 # Set the number of worker threads for the bot. To avoid sleeping issues and improve performance, keep it above 50 (recommended).
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
